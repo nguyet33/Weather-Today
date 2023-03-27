@@ -1,4 +1,107 @@
-img{
-    width:50px;
-    height:50px
+body {
+	font-family: ui-sans-serif;
+  background-color: darkgray;
+ }
+    
+ .hero { 
+  background-image: url('../images/lightning.jpg');
+  background-size: cover;
+  background-position: center;
+ 
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-attachment: fixed;
+  background-position: 30%;
+}
+
+.hero-excel {
+  width: 35%;
+  text-align: right;
+  margin: 3.5%;
+  font-weight: bold;
+  color: whitesmoke;
+  font-size: 24px;
+  line-height: 1.2;
+  text-shadow: 0 0 5px rgba(0, 0, 0);
+}
+
+.icons {
+	height: 70px;
+	width: 70px;
+}
+
+.form-group {
+	padding-left: 20%;
+}
+
+.form-text {
+  font-weight: bold;
+}
+
+label {
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 20px;
+  margin-left: 3rem;
+  text-shadow: 0 0 1px rgba(0, 0, 0);
+}
+
+.cityText{
+  margin-left: 2rem;
+}
+
+.list-group {
+	padding-left: -30%;
+}
+
+h1{
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 0px 2px 2px #B3B3B3;
+} 
+
+h2{
+	
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 0px 2px 2px #B3B3B3;
+}
+
+h4 {
+    margin: 5px;
+}
+
+h6 {
+	font-weight: bold;
+  }
+
+.btn-primary  {
+  /* background-color: blueviolet; */
+  margin-top: 1rem;
+  margin-left: 2.5rem;
+  Margin-bottom: 1rem;
+  text-shadow: 0 0 5px rgba(0, 0, 0);
+}
+    
+.card {
+  border-radius: 2.25rem;
+}
+
+.prevTab {
+	margin-top: 5px;
+	margin-left: 5px;
+}
+  
+.low {
+  background-color: chartreuse;
+}
+
+.medium {
+  background-color: lightsalmon;
+}
+
+.barbeque {
+  background-color: hotpink;
 }

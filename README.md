@@ -19,7 +19,19 @@ WHEN the game is over
 THEN I can save my initials and score
 
 ## Description
-This is a Weather Application that searches for City Input and display the 6 Day Forcast. Top screen will display the present and the bottom 5 will display the 5 day forcast. Previous search city will also be displayed where user can just click on to pull the city back up.
+Develop a weather dashboard application that runs in the browser, and provides the user with the weather outlook for the city of their choice. The application will retrieve weather data using the OpenWeather One Call API, and will feature dynamically updated HTML and CSS.
+
+Include form inputs that allow the user to search for a city.
+
+When the user searches for a city they are presented with current and future weather conditions, and search history is added to persistent storage.
+
+When current weather conditions for the city are displayed, the user is presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, the wind speed, and the UV index.
+
+The UV index must diplay a color that indicates whether the conditions are favorable, moderate, or severe.
+
+Future weather conditions for the city must include a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity.
+
+When a city listed in the search history is clicked, the user is presented with current and future weather conditions for that city.
 
 In this challenge, we demonstrated our knowledge in bootstrap, fetching api and use the api data.
 
@@ -30,5 +42,5 @@ The use of this website is to find the upcoming weather forcast for a city
 Search input on left screen that allow user to type in a city name
 Previous Search history button that user can click on to bring up past city weather
 
-![Main](./assets/Screenshots/Main.jpg)
-![Search](./assets/Screenshots/Search.jpg)
+## Credit 
+Howard Lee - UW Coding 
