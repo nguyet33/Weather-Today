@@ -43,4 +43,6 @@ Search input on left screen that allow user to type in a city name
 Previous Search history button that user can click on to bring up past city weather
 
 ## Credit 
+Eli Wood - UW TA 
+Justus Brown - UW TA 
 Howard Lee - UW Coding 
